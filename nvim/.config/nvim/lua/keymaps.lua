@@ -1,5 +1,7 @@
 -- [[ Basic Keymaps ]]
 
+vim.keymap.set("n", "<leader>t", ":Ntree<CR>", { silent = true })
+
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
