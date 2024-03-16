@@ -543,6 +543,8 @@ require("lazy").setup({
 			--    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
 		end,
 	},
+	{ "elkowar/yuck.vim" },
+	{ "eraserhd/parinfer-rust" },
 }, {
 	ui = {
 		-- If you have a Nerd Font, set icons to an empty table which will use the
