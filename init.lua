@@ -469,11 +469,15 @@ require("lazy").setup({
 		end,
 	},
 	{
-		"ellisonleao/gruvbox.nvim",
+		"navarasu/onedark.nvim",
 		priority = 1000,
 		config = function()
-			vim.o.background = "dark"
-			vim.cmd.colorscheme("gruvbox")
+			-- vim.o.background = "dark"
+			-- vim.cmd.colorscheme("gruvbox")
+			require("onedark").setup({
+				style = "dark",
+			})
+			require("onedark").load()
 		end,
 	},
 	{ -- Highlight todo, notes, etc in comments
